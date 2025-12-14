@@ -1,0 +1,50 @@
+
+---
+
+### **.gitignore**
+
+```gitignore
+# --------------------
+# Compiled Object Files
+# --------------------
+*.o
+*.obj
+
+# --------------------
+# Executables
+# --------------------
+*.exe
+*.out
+*.app
+*.bin
+
+# --------------------
+# Build Directories
+# --------------------
+/build/
+/Debug/
+/Release/
+
+# --------------------
+# IDE / Editor Specific
+# --------------------
+.vscode/
+.idea/
+*.suo
+*.user
+*.vcxproj*
+*.ncb
+*.sdf
+
+# --------------------
+# OS Specific
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Temporary Files
+# --------------------
+*~
+*.swp
+*.tmp
