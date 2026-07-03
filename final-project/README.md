@@ -50,11 +50,11 @@ Alt + F4     - Exit fullscreen window
 
 ### Night City Scene
 
-![Night City Scene](../assets/sample-output.png)
+![Night City Scene](../assets/sample-output3.png)
 
 ### Interactive Lighting Toggle
 
-![Interactive Lighting Toggle](../assets/sample-output2.png)
+![Interactive Lighting Toggle](../assets/sample-output4.png)
 
 ## Notes
 
