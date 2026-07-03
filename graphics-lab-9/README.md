@@ -48,13 +48,13 @@ Esc              - Close window
 
 ## Sample Output
 
-### Final Project - Night City Scene
+### Graphics Lab 9 - Rotated Diamond Lighting View
 
-![Rotated Diamond Lighting View](../assets/sample-output3.png)
+![Rotated Diamond Lighting View](../assets/sample-output.png)
 
-### Final Project - Interactive Lighting Toggle
+### Graphics Lab 9 - Dynamic Lighting Demo
 
-![Dynamic Lighting Demo](../assets/sample-output4.png)
+![Dynamic Lighting Demo](../assets/sample-output2.png)
 
 ## Notes
 
