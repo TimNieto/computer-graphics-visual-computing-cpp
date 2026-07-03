@@ -48,11 +48,11 @@ Esc              - Close window
 
 ## Sample Output
 
-### Rotated Diamond Lighting View
+### Final Project - Night City Scene
 
 ![Rotated Diamond Lighting View](../assets/sample-output3.png)
 
-### Dynamic Lighting Demo
+### Final Project - Interactive Lighting Toggle
 
 ![Dynamic Lighting Demo](../assets/sample-output4.png)
 
