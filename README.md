@@ -40,7 +40,7 @@ A 3D OpenGL lighting demo featuring a faceted diamond and three colored light sp
 ## Project Structure
 
 ```text
-computer-graphics-visual-computing-cpp/
+cpp-computer-graphics-visual-computing/
 ├── .gitignore
 ├── README.md
 ├── assets/
@@ -62,30 +62,43 @@ This project was tested using MSYS2 UCRT64 on Windows.
 
 ### Requirements
 
-Install MSYS2 UCRT64 and the required OpenGL libraries:
+- Git
+- MSYS2 UCRT64
+- MinGW g++
+- FreeGLUT
+- GLEW
+
+Install the required OpenGL libraries in the MSYS2 UCRT64 terminal:
 
 ```bash
 pacman -S mingw-w64-ucrt-x86_64-freeglut mingw-w64-ucrt-x86_64-glew
 ```
 
-Make sure the UCRT64 compiler is available:
+Check if the compiler is available:
 
-```powershell
+```bash
 g++ --version
 ```
 
-## Run Final Project
+### Clone the Repository
+
+```bash
+git clone https://github.com/TimNieto/cpp-computer-graphics-visual-computing.git
+cd cpp-computer-graphics-visual-computing
+```
+
+### Run Final Project
 
 Compile:
 
-```powershell
-g++ .\final-project\main.cpp -o .\final-project\final-project.exe -lfreeglut -lglew32 -lopengl32 -lglu32
+```bash
+g++ ./final-project/main.cpp -o ./final-project/final-project.exe -lfreeglut -lglew32 -lopengl32 -lglu32
 ```
 
 Run:
 
-```powershell
-.\final-project\final-project.exe
+```bash
+./final-project/final-project.exe
 ```
 
 Controls:
@@ -96,18 +109,18 @@ Right Click  - Toggle streetlight
 Alt + F4     - Exit fullscreen window
 ```
 
-## Run Graphics Lab 9
+### Run Graphics Lab 9
 
 Compile:
 
-```powershell
-g++ .\graphics-lab-9\main.cpp -o .\graphics-lab-9\graphics-lab-9.exe -lfreeglut -lopengl32 -lglu32
+```bash
+g++ ./graphics-lab-9/main.cpp -o ./graphics-lab-9/graphics-lab-9.exe -lfreeglut -lopengl32 -lglu32
 ```
 
 Run:
 
-```powershell
-.\graphics-lab-9\graphics-lab-9.exe
+```bash
+./graphics-lab-9/graphics-lab-9.exe
 ```
 
 Controls:
